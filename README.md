@@ -1,11 +1,12 @@
 # ToyRobot
+[![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) [![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
 
-The original exercise created by Australian [Jon Eaves](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/). This example is written completely in Ruby.
+A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. The original exercise created by [Jon Eaves](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/)
 
-* A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 * There are no other obstructions on the table surface.
 * The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table must be prevented, however further valid movement commands must still
 be allowed.
+
 
 ### Requirements
 
