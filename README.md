@@ -1,5 +1,7 @@
-# ToyRobot
-[![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) [![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
+# Toy Robot
+[![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) 
+[![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
+[![Dependency Status](https://gemnasium.com/badges/github.com/leesheppard/toy_robot.svg)](https://gemnasium.com/github.com/leesheppard/toy_robot)
 
 A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. The original exercise created by [Jon Eaves](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/)
 
@@ -27,7 +29,7 @@ Now run:
 
 	$ bundle install
 
-This will install the required dependencies specified in toy_robot.gemspec
+This will install the required dependencies specified in `toy_robot.gemspec`
 
 ### Usage
 
