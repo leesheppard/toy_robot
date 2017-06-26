@@ -1,3 +1,5 @@
+![Toy Robot](http://assets.sheppard.io/characters/toyrobot_300.png)
+
 # Toy Robot
 [![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) 
 [![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
@@ -59,7 +61,7 @@ Here's some rules for these commands:
 * `LEFT` and `RIGHT` rotates the robot 90 degrees in the specified direction without changing the position of the robot.
 * `REPORT` announces the `X,Y` and `F` of the robot.
 
-The file is assumed to have `ASCII encoding`. It is assumed that the `PLACE` command has only one space, that is `PLACE 1, 2, NORTH` is an invalid command. All commands must be in uppercase, all lower and mixed case commands will be ignored.
+The file is assumed to have `ASCII encoding`. It is assumed that the `PLACE` command has only one space, that is `PLACE 1, 2, NORTH` is an invalid command. All commands must be in upcase, all lower and mixed case commands will be ignored.
 
 ### Contact 
 
