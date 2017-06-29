@@ -2,6 +2,7 @@
 
 # Toy Robot
 [![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) 
+[![Code Climate](https://codeclimate.com/github/leesheppard/toy_robot/badges/gpa.svg)](https://codeclimate.com/github/leesheppard/toy_robot)
 [![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
 [![Dependency Status](https://gemnasium.com/badges/github.com/leesheppard/toy_robot.svg)](https://gemnasium.com/github.com/leesheppard/toy_robot)
 
@@ -16,16 +17,16 @@ be allowed.
 
 This project was written and tested using ruby `2.4.0`.
 
+Install Bundler from rubygems (if you have not already):
+
+	$ gem install bundler
+
 ### Installation
 
 To install the system locally:
 
 	$ git clone git@github.com:leesheppard/toy_robot.git
 	$ cd toy_robot
-
-Install Bundler from rubygems (if you have not already):
-
-	$ gem install bundler
 
 Now run: 
 
@@ -36,6 +37,14 @@ This will install the required dependencies specified in `toy_robot.gemspec`
 ### Usage
 
 TODO: Write usage instructions here
+
+## Testing
+
+Code quality and verification is tested using [RSpec](http://rspec.info/).
+
+Run spec tests:
+
+	$ rspec
 
 ## Specification
 
@@ -62,6 +71,10 @@ Here's some rules for these commands:
 * `REPORT` announces the `X,Y` and `F` of the robot.
 
 The file is assumed to have `ASCII encoding`. It is assumed that the `PLACE` command has only one space, that is `PLACE 1, 2, NORTH` is an invalid command. All commands must be in upcase, all lower and mixed case commands will be ignored.
+
+### Project Management
+
+To assist in breaking down solutions with the project Git integration with [Trello](https://trello.com/b/uEvy02ax/toy-robot) has been implemented.
 
 ### Contact 
 
