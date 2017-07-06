@@ -1,7 +1,7 @@
 ![Toy Robot](http://assets.sheppard.io/characters/toyrobot_300.png)
 
 # Toy Robot
-[![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576) 
+[![Codeship Status for leesheppard/toy_robot](https://app.codeship.com/projects/86ec4020-3a53-0135-dc21-3e90d98dff2a/status?branch=master)](https://app.codeship.com/projects/228576)
 [![Code Climate](https://codeclimate.com/github/leesheppard/toy_robot/badges/gpa.svg)](https://codeclimate.com/github/leesheppard/toy_robot)
 [![GitHub version](https://badge.fury.io/gh/leesheppard%2Ftoy_robot.svg)](https://badge.fury.io/gh/leesheppard%2Ftoy_robot)
 [![Dependency Status](https://gemnasium.com/badges/github.com/leesheppard/toy_robot.svg)](https://gemnasium.com/github.com/leesheppard/toy_robot)
@@ -11,6 +11,8 @@ A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x
 * There are no other obstructions on the table surface.
 * The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table must be prevented, however further valid movement commands must still
 be allowed.
+
+Full specifications [here](#specification).
 
 
 ### Requirements
@@ -28,7 +30,7 @@ To install the system locally:
 	$ git clone git@github.com:leesheppard/toy_robot.git
 	$ cd toy_robot
 
-Now run: 
+Now run:
 
 	$ bundle install
 
@@ -36,7 +38,7 @@ This will install the required dependencies specified in `toy_robot.gemspec`
 
 ### Usage
 
-TODO: Write usage instructions here
+	$ bundle exec exe/toy_robot commands.txt
 
 ## Testing
 
@@ -48,9 +50,9 @@ Run spec tests:
 
 ## Specification
 
-* The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. 
-* There are no other obstructions on the table surface. 
-* The robot is free to roam around the surface of the table. 
+* The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
+* There are no other obstructions on the table surface.
+* The robot is free to roam around the surface of the table.
 * Any movement that would result in the robot falling from the table is prevented, however further valid movement commands are still allowed.
 
 The application reads a file using a name passed in the command line, the following commands are valid:
@@ -76,7 +78,7 @@ The file is assumed to have `ASCII encoding`. It is assumed that the `PLACE` com
 
 To assist in breaking down solutions with the project Git integration with [Trello](https://trello.com/b/uEvy02ax/toy-robot) has been implemented.
 
-### Contact 
+### Contact
 
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
 
