@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "spec_helper"
 
 RSpec.describe ToyRobot::Robot do
@@ -114,5 +116,15 @@ RSpec.describe ToyRobot::Robot do
       expect(subject.direction).to eq("SOUTH")
     end
   end
-end
 
+  context "#report" do
+    subject { ToyRobot::Robot.new(5, 4, "EAST") }
+    it "provides the current location and direction of the robot" do
+      expect(subject.report).to eq({
+                                     east: 5,
+                                     north: 4,
+                                     direction: "EAST"
+                                   })
+    end
+  end
+end
