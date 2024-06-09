@@ -9,7 +9,7 @@ A simulation of a toy robot moving on a square tabletop, of dimensions 5 units x
 
 Full specifications [here](#specification).
 
-This project was written using ruby `3.3.0`.
+This project was written using ruby `3.3.0`. Tests are run against version `3.0` and `3.3`.
 
 ## Installation
 
@@ -19,6 +19,12 @@ Install the gem and add to the application's Gemfile by executing:
 $ git clone https://github.com/leesheppard/toy_robot.git
 $ cd toy_robot
 $ bundle install
+```
+
+### Usage
+
+```bash
+$ bundle exec exe/toy_robot commands.txt
 ```
 
 ## Testing
