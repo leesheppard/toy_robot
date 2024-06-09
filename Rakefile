@@ -10,3 +10,7 @@ require "rubocop/rake_task"
 RuboCop::RakeTask.new
 
 task default: %i[spec rubocop]
+
+task :run do
+  bundle exec "exe/toy_robot commands.txt"
+end
