@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module ToyRobot
   class Simulator
     attr_reader :robot
@@ -22,19 +23,22 @@ module ToyRobot
 
     def turn_left
       return unless robot_placed?
+
       robot.turn_left
     end
 
     def turn_right
       return unless robot_placed?
+
       robot.turn_right
     end
 
     def report
       return unless robot_placed?
+
       position = robot.report
       puts "Robot is currently at (#{position[:east]}, #{position[:north]})" +
-        " and it's facing #{position[:direction]}"
+           " and it's facing #{position[:direction]}"
     end
 
     def invalid(command)

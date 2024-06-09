@@ -14,7 +14,8 @@ RSpec.describe ToyRobot::CLI do
                                [:move],
                                [:turn_right],
                                [:turn_left],
-                               [:report] ])
+                               [:report]
+                             ])
     end
   end
 
@@ -27,13 +28,15 @@ RSpec.describe ToyRobot::CLI do
     context "place command" do
       it "passes a place command to the simulator" do
         expect(simulator).to receive(:place).with(0, 0, "NORTH")
-        subject.run([[:place, 0, 0, "NORTH"]]) end
+        subject.run([[:place, 0, 0, "NORTH"]])
+      end
     end
 
     context "move command" do
       it "passes the command to the simulator" do
         expect(simulator).to receive(:move)
-        subject.run([[:move]]) end
+        subject.run([[:move]])
+      end
     end
 
     context "left command" do
@@ -46,14 +49,15 @@ RSpec.describe ToyRobot::CLI do
     context "right command" do
       it "passes the command to the simulator" do
         expect(simulator).to receive(:turn_right)
-        subject.run([[:turn_right]]) end
+        subject.run([[:turn_right]])
+      end
     end
 
     context "report command" do
       it "passes the command to the simulator" do
         expect(simulator).to receive(:report)
-        subject.run([[:report]]) end
+        subject.run([[:report]])
+      end
     end
-
   end
 end
