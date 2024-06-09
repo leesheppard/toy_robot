@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe ToyRobot::Simulator do
+RSpec.describe ToyRobot::Simulator do
   let(:table) { ToyRobot::Table.new(5, 5) }
   subject { ToyRobot::Simulator.new(table) }
 
